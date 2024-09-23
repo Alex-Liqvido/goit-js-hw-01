@@ -2,7 +2,7 @@ function getShippingMessage (country, price, deliveryFee) {
 
    
     
-    const totalPrice = quantity + pricePerDroid;
+    const totalPrice = price + deliveryFee;
    
     return `Shipping to ${country} will cost ${totalPrice} credits`;
 
